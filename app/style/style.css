@@ -29,9 +29,7 @@ body {
    justify-content: center;
 }
 
-.logo i {
-   font-size: 30px;
-}
+.logo i { font-size: 30px; }
 
 .home-link {
    display: flex;
@@ -96,19 +94,7 @@ body {
    padding-left: 10px;
 }
 
-.tweets-list {
-   height: 500px;
-   margin: 20px;
-   background-color: green;
-}
-
-.tweet-container {
-   display: flex;
-   flex-direction: column;
-   height: 100px;
-   background-color: white;
-   margin: 10px;
-}
+.tweets-list { margin: 20px; }
 
 /*==========================================*/
 /* Tweets Side Bar / Trending Section */
