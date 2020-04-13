@@ -26,6 +26,11 @@
    color: white;
 }
 
+.tweet-user-profile {
+   background-position: center;
+   background-size: cover;
+}
+
 .tweet-user-fullname { font-size: 10px; }
 
 .tweet-user-username { font-size: 8px; }
