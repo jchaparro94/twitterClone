@@ -87,3 +87,9 @@ const buildVideo = (mediaList) => {
    videoContent += `</div>`;
    return videoExists ? videoContent : '';
 };
+
+const selectTrend = (e) => {
+   const text = e.innerText;
+   document.getElementById('user-input-search').value = text;
+   getTwitterData();
+}
