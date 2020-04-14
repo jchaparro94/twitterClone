@@ -96,6 +96,25 @@ body {
 
 .tweets-list { margin: 0 20px 20px 20px; }
 
+.next-page-container {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   color: #47525d;
+   border: 1px solid #1c1c1c;
+   border-radius: 20px;
+   padding: 6px;
+   text-align: center;
+   cursor: pointer;
+   transition: all 0.15s ease-in-out;
+   visibility: hidden;
+}
+
+.next-page-container:hover {
+   background-color: #1c1c1c;
+
+}
+
 /*==========================================*/
 /* Tweets Side Bar / Trending Section */
 .tweets-sidebar-container {
