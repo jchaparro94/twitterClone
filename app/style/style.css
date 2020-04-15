@@ -2,6 +2,7 @@
 body {
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
+   background-color: #0f0f11;
 }
 
 .container {
@@ -22,6 +23,10 @@ body {
 .navigation {
    margin-top: 30px;
    color: white;
+   position: fixed;
+   width: 20%;
+   max-width: 100px;
+   min-width: 70px;
 }
 
 .logo {
@@ -53,9 +58,11 @@ body {
 .profile {
    height: 30px;
    width: 30px;
-   background-color: white;
    border-radius: 50%;
    border: 1px solid #979797;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 /*==========================================*/
@@ -64,6 +71,19 @@ body {
    flex: 1;
    display: flex;
    flex-direction: column;
+}
+
+.tweets-welcome-message {
+   color: white;
+   text-align: center;
+}
+
+.tweets-welcome-message h5 {
+   margin-bottom: 0;
+}
+
+.tweets-welcome-message p {
+   font-size: 10px;
 }
 
 .tweets-search-container {
@@ -129,6 +149,7 @@ body {
    background-color: white;
    border: 1px solid #979797;
    border-radius: 40px;
+   position: fixed;
 }
 
 .tweets-trending {
@@ -158,6 +179,7 @@ body {
    font-size: 18px;
    color: #a5a5a6;
    padding: 8px 0px 8px 20px;
-   border-top: 1px solid #D8D8D8;
+   border-top: 0.5px solid #D8D8D8;
    cursor: pointer;
+   font-weight: 600;
 }
